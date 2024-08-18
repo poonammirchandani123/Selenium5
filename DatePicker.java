@@ -17,8 +17,8 @@ public class DatePicker {
 
         driver.switchTo().frame(0);
 
-        By By = null;
-        driver.findElement(By.xpath("//input[@id='datepicker']")).sendKeys("04/05/2024"); //mm/yy//yyyy
+        
+  driver.findElement(By.xpath("//input[@id='datepicker']")).sendKeys("04/05/2024"); //mm/yy//yyyy
     }
     
 }
